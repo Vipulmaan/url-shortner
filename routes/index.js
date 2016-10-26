@@ -29,7 +29,7 @@ module.exports = function(app, io, server) {
     app.get('/', function(req, res){
         res.render('home');
     });
-    
+    /* starting with github */
     /* Creating short url. */
     app.post('/shortener',  function(req, res){ 
         var url = new Url({
