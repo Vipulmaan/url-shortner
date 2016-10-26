@@ -1,5 +1,5 @@
 /**
- * Created by vipul on 6/08/2016.
+ * Created by vipul and rahul chhoker on 6/08/2016.
  */
  module.exports = function(io) {
  	io.on('connection', function (socket) {
