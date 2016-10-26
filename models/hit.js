@@ -6,3 +6,6 @@ var hitSchema = mongoose.Schema({
 });
 var Hit = mongoose.model('Hit', hitSchema);
 module.exports = Hit;
+
+
+/* its models/hit.js file */
