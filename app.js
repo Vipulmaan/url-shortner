@@ -32,7 +32,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-// setup flash message
+// setup flash message..............
 app.use(function(req, res, next){
 // if there's a flash message, transfer
 // it to the context, then clear it
