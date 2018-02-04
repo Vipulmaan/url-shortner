@@ -10,7 +10,7 @@ var express = require('express')
     ,   credentials = require('./credentials.js')
     ,   mongoose = require('mongoose');
 
-//Setup db________________
+//Setup db_______
 var options = {
     server: {
         socketOptions: { keepAlive: 1 }
