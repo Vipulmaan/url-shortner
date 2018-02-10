@@ -21,7 +21,7 @@ mongoose.connect(credentials.mongo.connectionString, options);
 app.use(require('cookie-parser')(credentials.cookieSecret));
 app.use(require('express-session')());
 
-// set up handlebars view engine..........
+// set up handlebars view engine..................
 var handlebars = require('express-handlebars').
     create({ defaultLayout:'main' });
 app.engine('handlebars', handlebars.engine);
