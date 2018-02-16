@@ -74,7 +74,7 @@ app.use(function(err, req, res, next) {
         error: {}
     });
 });
-
+//port
 var runningPortNumber = process.env.PORT || 3000;
 
 server.listen(runningPortNumber, function () {
